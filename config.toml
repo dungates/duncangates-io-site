@@ -61,7 +61,7 @@ theme = "aafu"
         [[params.social.list]]
             class = "fa"
             icon = "fa-file"
-            url = "duncangates.me/cv"
+            url = "/cv"
             title = "Curriculum Vitae"
 
     #Specify what is showin in the Accordion  ---------------------------------
