@@ -92,35 +92,11 @@ theme = "aafu"
         icon = "fas fa-briefcase"
 
         [[params.experience.list]]
-            position = "Data Scientst, Co-Founder"
-            dates = "2019 - *Present*"
-            company = "Paradigm Data Group"
-            link = "https://www.paradigmdata.io/"
-            details = "Our company provides data science trainings and solutions to companies, schools, teams, and individuals."
-        [[params.experience.list]]
-            position = "Author/Contributor"
-            dates = "2016 - *Present*"
-            company = "Storybench"
-            link = "[Data Journalism in R](http://www.storybench.org/category/data-journalism-in-r/)"
-            details = "I've been a contributing author since 2016, and I write R/RStudio tutorials and how-tos for data journalists."
-        [[params.experience.list]]
-            position = "Computational & Data Science Research Specialist III"
-            dates = "2017 - 2018"
-            link = "https://www.ucsf.edu/research"
-            company = "University of California, San Francisco"
-            details = "I was responsible for analyzing existing software, scientific code, data science/analytics code/algorithms and applied complex programming practices. I also worked with domain scientists where applicable to perform these responsibilities and uses domain science knowledge where relevant."
-        [[params.experience.list]]
-            position = "Researcher Associate"
-            dates = "2015 - 2017"
-            company = "NCIRE - The Veterans Health Research Institute"
-            link = "https://www.ncire.org/"
-            details = "As the Research Associate, I was responsible for the data management of all clinical research volunteers (physicians and clinical pharmacists) and subjects (trial participants) to ensure veterans were screened or diagnosed with chronic kidney disease."
-        [[params.experience.list]]
-            position = "Researcher Scientist"
-            dates = "2011 - 2014"
-            company = "CNAP - The Center for Nutrition and Activity Promotion"
-            link = "https://www.csuchico.edu/chc/"
-            details = "As the Research Scientist, I was responsible for the selection and application of appropriate evaluation methods, techniques, practices, and procedures. I also oversaw the work of four interns by establishing priorities, coordinating activities, and resolving related work problems."
+            #position = "Data Scientst, Co-Founder"
+            #dates = "2019 - *Present*"
+            #company = "Paradigm Data Group"
+            #link = "https://www.paradigmdata.io/"
+            #details = "Our company provides data science trainings and solutions to companies, schools, teams, and individuals."
 
 
     # Education section --------------------------------------------------------
