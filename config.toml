@@ -11,8 +11,8 @@ theme = "aafu"
     [params.theme]
         allowToggle = true
         # Available themes are 'light', 'dark', and 'pinkish'
-        mainTheme = "pinkish"
-        altTheme = "dark"
+        mainTheme = "dark"
+        altTheme = "pinkish"
         # setting false below will hide 'aafu by darshan' displayed under the profile pic
         showAttribute = true
 
@@ -127,8 +127,8 @@ theme = "aafu"
             degree = "B.S. in Mathematical Economics, Actuarial Science, and Political Science"
             college = "Oregon State University, Corvallis"
             dates = "2017 - 2020"
-            thesis_title = "Validating laboratory defined chronic kidney disease in the electronic health record for patients in primary care"
-            thesis_link = "https://bmcnephrol.biomedcentral.com/articles/10.1186/s12882-018-1156-2"
+            thesis_title = "The Relationship Between Income Taxation, Social Benefits, and Wealth Inequality in OECD Countries: Exploring the Factors Contributing to Unequal Household Wealth"
+            thesis_link = "https://www.google.com"
 
     # Publication section  -----------------------------------------------------
     [params.publication]
