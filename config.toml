@@ -1,12 +1,12 @@
-baseURL = "https://www.example.org/"
+baseURL = "https://www.duncangates.me"
 languageCode = "en-us"
 theme = "aafu"
 
 [params]
-    title = "Martin Frigaard dot io"
-    author = "Martin Frigaard"
-    description = "Martin Frigaard's personal website"
-    copyright = "Martin James Frigaard"
+    title = "Duncan Gates dot io"
+    author = "Duncan Gates"
+    description = "Duncan Gates's personal website"
+    copyright = "Duncan Gates"
 
     [params.theme]
         allowToggle = true
@@ -29,9 +29,9 @@ theme = "aafu"
 
     # Profile section
     [params.profile]
-        name = "Martin Frigaard, MA, MAS"
-		tagline = "Data Scientist, Co-Founder"
-		location = "Oakland, CA"
+        name = "Duncan Gates, BS"
+		tagline = "Data Scientist"
+		location = "Corvallis, OR"
         photo = "profile.jpg"
 
     # Section for links to social websites ---------------------------------
@@ -41,22 +41,22 @@ theme = "aafu"
         [[params.social.list]]
             class = "fab"
             icon = "fa-linkedin-in"
-            url = "https://www.linkedin.com/in/mjfrigaard/"
-            title = "LinkedIn"		
+            url = "https://www.linkedin.com/in/duncan-gates/"
+            title = "LinkedIn"
         [[params.social.list]]
             class = "fab"
             icon = "fa-github"
-            url = "https://github.com/mjfrigaard"
+            url = "https://github.com/itsthesnake"
             title = "GitHub"
         [[params.social.list]]
             class = "fab"
             icon = "fa-twitter"
-            url = "https://twitter.com/mjfrigaard"
+            url = "https://twitter.com/gates_duncan"
             title = "Twitter"
 		[[params.social.list]]
             class = "ai"
             icon = "ai-google-scholar"
-            url = "http://bit.ly/goo-schlr-mjfrigaard"
+            url = "http://bit.ly/goo-schlr-duncangates"
             title = "Google Scholar"
 
     #Specify what is showin in the Accordion  ---------------------------------
@@ -79,7 +79,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "**Hi! I'm Martin Frigaard**, a Data Scientist and Co-Founder of Paradigm Datagroup. I provide workshops, write guides and tutorials, and build web applications for individuals and teams working with data. I have over 8 years of experience with data analysis, statistics, and research. [I'm also a fully certified RStudio `tidyverse` trainer](https://education.rstudio.com/trainers/). If you'd like a PDF version on my résumé, please click the dropbox link [here](http://bit.ly/frigaard-resume-2019-12)."
+        description = "**Hi! I'm Duncan Gates**, a recent graduate from Oregon State University. I specialize in data analytics, statistics, and research over a variety of fields. This website is just getting organized so excuse the messiness."
 
     # Experience section  ------------------------------------------------------
     [params.experience]
@@ -109,36 +109,26 @@ theme = "aafu"
             dates = "2015 - 2017"
             company = "NCIRE - The Veterans Health Research Institute"
             link = "https://www.ncire.org/"
-            details = "As the Research Associate, I was responsible for the data management of all clinical research volunteers (physicians and clinical pharmacists) and subjects (trial participants) to ensure veterans were screened or diagnosed with chronic kidney disease."  
+            details = "As the Research Associate, I was responsible for the data management of all clinical research volunteers (physicians and clinical pharmacists) and subjects (trial participants) to ensure veterans were screened or diagnosed with chronic kidney disease."
         [[params.experience.list]]
             position = "Researcher Scientist"
             dates = "2011 - 2014"
             company = "CNAP - The Center for Nutrition and Activity Promotion"
             link = "https://www.csuchico.edu/chc/"
             details = "As the Research Scientist, I was responsible for the selection and application of appropriate evaluation methods, techniques, practices, and procedures. I also oversaw the work of four interns by establishing priorities, coordinating activities, and resolving related work problems."
-    
-    
+
+
     # Education section --------------------------------------------------------
     [params.education]
         title = "Education"
         icon = "fas fa-graduation-cap"
 
         [[params.education.list]]
-            degree = "M.A.S. in Clinical Research"
-            college = "University of California, San Francisco"
-            dates = "2015 - 2017"
+            degree = "B.S. in Mathematical Economics, Actuarial Science, and Political Science"
+            college = "Oregon State University, Corvallis"
+            dates = "2017 - 2020"
             thesis_title = "Validating laboratory defined chronic kidney disease in the electronic health record for patients in primary care"
             thesis_link = "https://bmcnephrol.biomedcentral.com/articles/10.1186/s12882-018-1156-2"
-        [[params.education.list]]
-            degree = "M.A. in Kinesiology"
-            college = "California State University, Chico"
-            dates = "2009 - 2011"
-            thesis_title = "Associations Between Obesity and Elevated Blood Pressure Among Children in Five Low-Income Northern California Elementary Schools"
-            thesis_link = "http://csuchico-dspace.calstate.edu/handle/10211.3/10211.4_387"
-        [[params.education.list]]
-            degree = "B.S. in Exercise Physiology"
-            college = "California State University, Chico"
-            dates = "2007 - 2009"
 
     # Publication section  -----------------------------------------------------
     [params.publication]
@@ -156,7 +146,7 @@ theme = "aafu"
             journal = "Storybench (Northeastern University's School of Journalism)"
             link = "http://www.storybench.org/category/data-journalism-in-r/"
             type = "Tutorials"
-            
+
         [[params.publication.list]]
             title = "Validating laboratory defined chronic kidney disease in the electronic health record for patients in primary care."
             authors = "M Frigaard, A Rubinsky, L Lowell, A Malkina, L Karliner, M Kohn, CA Peralta."
@@ -172,7 +162,7 @@ theme = "aafu"
             journal = "BMC Nephrology. 2017 Apr 12;18(1):132."
             link = "https://www.ncbi.nlm.nih.gov/pubmed/28399844"
             type = "Journal Articles"
-            
+
         [[params.publication.list]]
             title = "Genetic Testing and Privacy Issues"
             authors = "M Frigaard (published with K. Lee Lerner)"
@@ -180,7 +170,7 @@ theme = "aafu"
             journal = "Worldmark Global Health and Medicine Issues, 1st Edition"
             link = "https://www.dropbox.com/s/kc4sldkxe178594/2016-genetic-testing-priv-issues-worldmark-global-health-and-medicine-issues-1st-edition.pdf?dl=0"
             type = "Book Chapters"
-            
+
         [[params.publication.list]]
             title = "Noncommunicable Diseases (Lifestyle Diseases)"
             authors = "M Frigaard (published with K. Lee Lerner)"
@@ -188,7 +178,7 @@ theme = "aafu"
             journal = "Worldmark Global Health and Medicine Issues, 1st Edition"
             link = "https://www.dropbox.com/s/epfop5cfyk9xdly/2016-noncommunicable-diseases-lifestyle-diseases-worldmark-global-health-and-medicine-issues-1st-edition.pdf?dl=0"
             type = "Book Chapters"
-            
+
         [[params.publication.list]]
             title = "Pharmaceutical Research, Testing, and Access, Sidebar: Pharmaceutical Supply to Developing Nations"
             authors = "M Frigaard (published with K. Lee Lerner)"
@@ -196,7 +186,7 @@ theme = "aafu"
             journal = "Worldmark Global Health and Medicine Issues, 1st Edition"
             link = "https://www.dropbox.com/s/twxn4rgdl8a42j5/2016-pharm-research-test-access-worldmark-global-health-and-medicine-issues-1st-edition.pdf?dl=0"
             type = "Book Chapters"
-            
+
         [[params.publication.list]]
             title = "Vaccines, Sidebar: Experimental use in Ebola Outbreak"
             authors = "M Frigaard (published with K. Lee Lerner)"
@@ -204,7 +194,7 @@ theme = "aafu"
             journal = "Worldmark Global Health and Medicine Issues, 1st Edition"
             link = "https://www.dropbox.com/s/tw0lorb5lp0bqva/2016-vaccines-worldmark-global-health-and-medicine-issues-1st-edition.pdf?dl=0"
             type = "Book Chapters"
-            
+
         [[params.publication.list]]
             title = "Vaccine Preventable Diseases, Sidebar: MMR fraud and anti-vaccine movements"
             authors = "M Frigaard (published with K. Lee Lerner)"
@@ -212,7 +202,7 @@ theme = "aafu"
             journal = "Worldmark Global Health and Medicine Issues, 1st Edition"
             link = "https://www.dropbox.com/s/14qhjmpc9o2t8na/2016-vaccine-prev-diseases-worldmark-global-health-and-medicine-issues-1st-edition.pdf?dl=0"
             type = "Book Chapters"
-            
+
         [[params.publication.list]]
             title = "Identifying Red Flags: Using Anthropometry Measures to Screen for Elevated Blood Pressure Risk in Children"
             authors = "M Frigaard, K Goto, C Wolff, S Bianco-Simeral, T Fahey"
@@ -228,7 +218,7 @@ theme = "aafu"
             journal = "American Journal Of Kidney Diseases 71 (4), 539-539"
             link = "https://www.ajkd.org/article/S0272-6386(18)30232-4/fulltext"
             type = "Posters & Abstracts"
-		
+
         [[params.publication.list]]
             title = "Comparison Of Historical Lab-Ckd And Clinician Chart Review."
             authors = "M Frigaard, C Peralta, L Karliner"
@@ -243,48 +233,48 @@ theme = "aafu"
         icon = "fas fa-project-diagram"
 
         [[params.project.list]]
-            title = "Sharing your work"
+            title = "Tinder Romance Algorithm"
             url = "https://leanpub.com/showingyourwork/"
-            description = "This is a free text I wrote for our business partners. It covers getting started in R, RStudio & Git and sharing a project with Github pages. I covered these topics with a relevant case study (2020 democratic candidates Google trend and Twitter data)."
-        
+            description = "Propietary analytics to determine optimal dating app strategies. Currently has only been conducted with self-collected data on Tinder."
+
         [[params.project.list]]
-            title = "The Diabetes Technology Society Blood Glucose Monitor System (BGMS) Surveillance Program"
+            title = "Wealth and Happiness"
             url = "https://www.diabetestechnology.org/seg/"
-            description = "The error grids clinicians use to check the accuracy of blood glucose monitors are out-of-date. Regulatory agencies don't use error grids for approving monitors, but these tools could be useful for testing the performance of recommended products. The Diabetes Technology Society partnered with representatives from the Food and Drug Administration, the American Diabetes Association, the Endocrine Society, and the Association for the Advancement of Medical Instrumentation, and representatives from academia, industry, and government developed the surveillance error grid (SEG) as a tool to assess the degree of clinical risk from inaccurate blood glucose monitors (BGM). I built a Shiny app for clinicians to import data from a BGM, perform statistical tests for accuracy, and create data visualizations to communicate the results."
-        
+            description = "Exploring the relationship of wealth and happiness by looking for key points in the marginal effect of happiness on wealth."
+
         [[params.project.list]]
-            title = "Tidyverse tips"
+            title = "Algorithmic Spotify Recommendations"
             url = "https://www.tidyverse.tips/"
-            description = "A blog for [tidyverse](https://www.tidyverse.org/) pakcages, functions, tips, and tricks. Updated weekly."
-            
+            description = "A project designed to rethink the way we listen to music, using markov chains to analyze similar music tastes by key signatures and other novel unanalyzed similarities between music tastes by technology companies."
+
     # Skill section --------------------------------------------------------
-    
+
     [params.skill]
         title = "Skills"
         panelId = "skill-panel"
         icon = "fas fa-cogs"
 
         [[params.skill.list]]
-            skill = "Biostatistics, Experimental Design, Epidemiology"
-            skillrating = 90
+            skill = "Economic Theory and Applied Statistics"
+            skillrating = 75
         [[params.skill.list]]
             skill = "R Programming & Data visualization"
             skillrating = 85
         [[params.skill.list]]
-            skill = "Science Communication"
-            skillrating = 75
+            skill = "Teamwork & Communication"
+            skillrating = 80
         [[params.skill.list]]
-            skill = "Web Technologies"
-            skillrating = 50
+            skill = "Website Design (Very New Skill)"
+            skillrating = 30
 
     # Hobby section
     [params.hobby]
         title = "Hobbies"
         icon = "fas fa-gamepad"
-		
-        [[params.hobby.list]]		
-		    hobby = "Krav Maga"
-        [[params.hobby.list]]		
-		    hobby = "Hiking & Camping"
-        [[params.hobby.list]]		
-		    hobby = "BBQ"
+
+        [[params.hobby.list]]
+		    hobby = "Basketball"
+        [[params.hobby.list]]
+		    hobby = "Piano"
+        [[params.hobby.list]]
+		    hobby = "Running"
