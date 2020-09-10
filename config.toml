@@ -1,9 +1,9 @@
-baseURL = "https://www.duncangates.me"
+baseURL = "/"
 languageCode = "en-us"
 theme = "aafu"
 
 [params]
-    title = "Duncan Gates dot io"
+    title = "Duncan Gates Personal Website"
     author = "Duncan Gates"
     description = "Duncan Gates's personal website"
     copyright = "Duncan Gates"
@@ -29,7 +29,7 @@ theme = "aafu"
 
     # Profile section
     [params.profile]
-        name = "Duncan Gates, BS"
+        name = "Duncan Gates, B.S."
 		tagline = "Data Scientist"
 		location = "Corvallis, OR"
         photo = "profile.jpg"
@@ -53,11 +53,16 @@ theme = "aafu"
             icon = "fa-twitter"
             url = "https://twitter.com/gates_duncan"
             title = "Twitter"
-		[[params.social.list]]
+		    [[params.social.list]]
             class = "ai"
             icon = "ai-google-scholar"
             url = "http://bit.ly/goo-schlr-duncangates"
             title = "Google Scholar"
+        [[params.social.list]]
+            class = "fa"
+            icon = "fa-file"
+            url = "duncangates.me/cv"
+            title = "Curriculum Vitae"
 
     #Specify what is showin in the Accordion  ---------------------------------
     [[params.showInAccordion]]
@@ -83,7 +88,7 @@ theme = "aafu"
 
     # Experience section  ------------------------------------------------------
     [params.experience]
-        title = "Experience"
+        title = "Resume"
         icon = "fas fa-briefcase"
 
         [[params.experience.list]]
@@ -140,92 +145,12 @@ theme = "aafu"
         types = ["Tutorials", "Journal Articles", "Book Chapters", "Posters & Abstracts"]
 
         [[params.publication.list]]
-            title = "Data Journalism in R."
-            authors = "M Frigaard & Aleszu Bajak."
-            date = "2019"
-            journal = "Storybench (Northeastern University's School of Journalism)"
-            link = "http://www.storybench.org/category/data-journalism-in-r/"
+            title = "Making Your Own Website with R Markdown"
+            authors = "Duncan Gates"
+            date = "2020"
+            journal = ""
+            link = "http://www.youtube.com"
             type = "Tutorials"
-
-        [[params.publication.list]]
-            title = "Validating laboratory defined chronic kidney disease in the electronic health record for patients in primary care."
-            authors = "M Frigaard, A Rubinsky, L Lowell, A Malkina, L Karliner, M Kohn, CA Peralta."
-            date = "2019"
-            journal = "BMC nephrology. 2019 Jan;20(3):3."
-            link = "https://www.ncbi.nlm.nih.gov/pubmed/28399844"
-            type = "Journal Articles"
-
-        [[params.publication.list]]
-            title = "Implementation of a pragmatic randomized trial of screening for chronic kidney disease to improve care among non-diabetic hypertensive veterans."
-            authors = "CA Peralta, M Frigaard, AD Rubinsky, L Rolon, L Lo, S Voora, K Seal, D Tuot, S Chao, K Lui, P Chiao, N Powe, M Shlipak."
-            date = "2017"
-            journal = "BMC Nephrology. 2017 Apr 12;18(1):132."
-            link = "https://www.ncbi.nlm.nih.gov/pubmed/28399844"
-            type = "Journal Articles"
-
-        [[params.publication.list]]
-            title = "Genetic Testing and Privacy Issues"
-            authors = "M Frigaard (published with K. Lee Lerner)"
-            date = "2015"
-            journal = "Worldmark Global Health and Medicine Issues, 1st Edition"
-            link = "https://www.dropbox.com/s/kc4sldkxe178594/2016-genetic-testing-priv-issues-worldmark-global-health-and-medicine-issues-1st-edition.pdf?dl=0"
-            type = "Book Chapters"
-
-        [[params.publication.list]]
-            title = "Noncommunicable Diseases (Lifestyle Diseases)"
-            authors = "M Frigaard (published with K. Lee Lerner)"
-            date = "2015"
-            journal = "Worldmark Global Health and Medicine Issues, 1st Edition"
-            link = "https://www.dropbox.com/s/epfop5cfyk9xdly/2016-noncommunicable-diseases-lifestyle-diseases-worldmark-global-health-and-medicine-issues-1st-edition.pdf?dl=0"
-            type = "Book Chapters"
-
-        [[params.publication.list]]
-            title = "Pharmaceutical Research, Testing, and Access, Sidebar: Pharmaceutical Supply to Developing Nations"
-            authors = "M Frigaard (published with K. Lee Lerner)"
-            date = "2015"
-            journal = "Worldmark Global Health and Medicine Issues, 1st Edition"
-            link = "https://www.dropbox.com/s/twxn4rgdl8a42j5/2016-pharm-research-test-access-worldmark-global-health-and-medicine-issues-1st-edition.pdf?dl=0"
-            type = "Book Chapters"
-
-        [[params.publication.list]]
-            title = "Vaccines, Sidebar: Experimental use in Ebola Outbreak"
-            authors = "M Frigaard (published with K. Lee Lerner)"
-            date = "2015"
-            journal = "Worldmark Global Health and Medicine Issues, 1st Edition"
-            link = "https://www.dropbox.com/s/tw0lorb5lp0bqva/2016-vaccines-worldmark-global-health-and-medicine-issues-1st-edition.pdf?dl=0"
-            type = "Book Chapters"
-
-        [[params.publication.list]]
-            title = "Vaccine Preventable Diseases, Sidebar: MMR fraud and anti-vaccine movements"
-            authors = "M Frigaard (published with K. Lee Lerner)"
-            date = "2015"
-            journal = "Worldmark Global Health and Medicine Issues, 1st Edition"
-            link = "https://www.dropbox.com/s/14qhjmpc9o2t8na/2016-vaccine-prev-diseases-worldmark-global-health-and-medicine-issues-1st-edition.pdf?dl=0"
-            type = "Book Chapters"
-
-        [[params.publication.list]]
-            title = "Identifying Red Flags: Using Anthropometry Measures to Screen for Elevated Blood Pressure Risk in Children"
-            authors = "M Frigaard, K Goto, C Wolff, S Bianco-Simeral, T Fahey"
-            date = "2013"
-            journal = "Childhood Obesity and Nutrition. January 14, 2013"
-            link = "https://journals.sagepub.com/doi/10.1177/1941406412470719"
-            type = "Journal Articles"
-
-        [[params.publication.list]]
-            title = "The Associations Between Ckd Diagnosis And Guideline-Driven Care"
-            authors = "MJ Frigaard, L Karliner, C Peralta"
-            date = "2018"
-            journal = "American Journal Of Kidney Diseases 71 (4), 539-539"
-            link = "https://www.ajkd.org/article/S0272-6386(18)30232-4/fulltext"
-            type = "Posters & Abstracts"
-
-        [[params.publication.list]]
-            title = "Comparison Of Historical Lab-Ckd And Clinician Chart Review."
-            authors = "M Frigaard, C Peralta, L Karliner"
-            date = "2018"
-            journal = "American Journal Of Kidney Diseases 71 (4), 539-539"
-            link = "https://www.ajkd.org/article/S0272-6386(18)30231-2/fulltext"
-            type = "Posters & Abstracts"
 
     # Project section  --------------------------------------------------------
     [params.project]
