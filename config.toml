@@ -12,7 +12,7 @@ theme = "aafu"
         allowToggle = true
         # Available themes are 'light', 'dark', and 'pinkish'
         mainTheme = "dark"
-        altTheme = "pinkish"
+        altTheme = "light"
         # setting false below will hide 'aafu by darshan' displayed under the profile pic
         showAttribute = true
 
@@ -61,7 +61,7 @@ theme = "aafu"
         [[params.social.list]]
             class = "fa"
             icon = "fa-file"
-            url = "/cv/cv.html"
+            url = "/cv.html"
             title = "Curriculum Vitae"
 
     #Specify what is showin in the Accordion  ---------------------------------
