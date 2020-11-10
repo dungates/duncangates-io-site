@@ -46,7 +46,7 @@ theme = "aafu"
         [[params.social.list]]
             class = "fab"
             icon = "fa-github"
-            url = "https://github.com/itsthesnake"
+            url = "https://github.com/dungates"
             title = "GitHub"
         [[params.social.list]]
             class = "fab"
@@ -170,12 +170,12 @@ theme = "aafu"
 
     # Hobby section
     [params.hobby]
-        title = "Hobbies"
+        title = "Stuff I'm Working On"
         icon = "fas fa-gamepad"
 
         [[params.hobby.list]]
-		    hobby = "Basketball"
+		    hobby = "Dunking"
         [[params.hobby.list]]
-		    hobby = "Piano"
+		    hobby = "Stats"
         [[params.hobby.list]]
 		    hobby = "Running"
